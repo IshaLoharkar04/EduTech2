@@ -1,0 +1,69 @@
+form {
+    margin: 0 auto;
+    max-width: 600px;
+    background: linear-gradient(135deg, #f9fdfd, #f4f2f5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    height: auto;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 32px;
+    color: purple;
+    margin-bottom: 30px;
+  }
+
+  /* Styles for the form fields */
+  label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+margin-left: 100px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    margin-left: 200px;
+  }
+
+  select {
+    height: 40px;
+  }
+  
+
+ button{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #555;
+  color: white;
+    border-radius: 5px;
+ }
+ input[type='submit']:hover {
+    background-color: #4CAF50;
+  } 
+
+  /* Styles for the file input */
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+   /* Styles for the error message */
+   .error-message {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }

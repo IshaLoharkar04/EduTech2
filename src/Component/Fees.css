@@ -1,0 +1,44 @@
+/* Add some color to the background and text */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Add a gradient effect to the header */
+  .header {
+    background: linear-gradient(to right, #333, #764ba2);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add some spacing and color to the form labels */
+  label {
+    display: block;
+    margin-top: 20px;
+    color:#333;
+  }
+  
+  /* Add some color and border to the form inputs */
+  input {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    color: #333;
+  }
+  
+  /* Add some color to the submit button */
+  button{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #555;
+  color: white;
+    border-radius: 5px;
+ }
+ input[type='submit']:hover {
+    background-color: #4CAF50;
+  } 
+  
+

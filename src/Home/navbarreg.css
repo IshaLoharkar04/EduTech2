@@ -1,0 +1,11 @@
+.navbar navbar-expand-lg{
+    background-color: rgb(44, 44, 138);
+}
+.nav-link {
+    color: rgb(112, 96, 155);
+}
+.nav-link-1{
+    color: rgb(112, 96, 155);
+    font-style:italic;
+    font-weight: bolder;
+}
